@@ -1,0 +1,26 @@
+footer {
+  font-family: var(--family);
+  padding: 40px 0 80px;
+
+  width: 100%;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.left-info {
+  font-size: 14px;
+  color: rgb(190, 190, 190);
+}
+.right-info ul {
+  display: flex;
+  list-style: none;
+}
+.right-info ul li:not(:last-child) {
+  margin-right: 30px;
+}
+.right-info ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--a-color);
+}

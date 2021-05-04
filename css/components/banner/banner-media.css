@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  main .banner .banner-wrapper .headline {
+    font-size: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 420px;
+  }
+  main .banner .banner-wrapper .headline {
+    font-size: 35px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 320px;
+  }
+  .banner {
+    padding: 75px 0;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}

@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 420px;
+  }
+  .top-headline {
+    font-size: 25px;
+  }
+  .effective,
+  .content .top-content p,
+  .bottom-content p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
