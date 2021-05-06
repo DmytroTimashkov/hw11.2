@@ -18,7 +18,7 @@
   .effective,
   .content .top-content p,
   .bottom-content p {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 @media (max-width: 420px) {
